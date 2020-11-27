@@ -1,0 +1,82 @@
+body {
+    padding: 0;
+    margin:0;
+   font-family:"Open Sans",Helvetica,Arial,sans-serif;
+  background: #fff;
+  text-align:right;
+  direction:rtl
+}
+
+
+.service-box:first-child {
+    border-radius: 0px 5px 5px 0px;
+}
+.service-box:last-child {border-right: none; border-radius: 5px 0px 0px 5px;}
+.service-box .service-box-content {
+    position: relative;padding-right: 60px; padding-left: 0}
+
+.top-right {float: left;}
+.top-right li i {padding-right: 0em; padding-left: 0.7em;}
+.header-extras {float: left;}
+.header-extras li .he-text {float: right;padding-right: 6px;}
+.i-plain {float: right;margin: 4px 0px 7px 11px;}
+.co-list li i {left: auto;right: 0;}
+.fo-title:after {left: 0;right: 0;}
+.f1-list li a:after {left: auto;right: 0;}
+.newsmain {margin-left: 0;}
+
+.newscontent ul li {
+  padding:10px 70px 10px 10px; clear: both; width: 100%; margin-bottom: 10px;
+   border-bottom: 1px solid #ddd; display: block;min-height: 80px;
+}
+
+.date {left: auto;right: 0;}
+.dropdown-menu{left: auto; right: 0}
+.dropdown-menu>li>a {text-align: right;}
+
+.fullwidth { width: 100vw;position: relative;right: 50%;
+margin-right: -50vw;margin-left: auto;left: 0;}
+
+.owl-carousel.owl-loaded{direction: ltr;}
+.head-title{text-align: right;}
+.staff-content h3{text-align: center;}
+.countdown_bg h3 {text-align: center;}
+.panel-heading .accordion-toggle:after {padding-left: 5px;}
+.whychooses h3{color: #000; text-align: center;}
+.whychooses p {text-align: center;}
+.blue-box1 {text-align: right;}
+.contact-item {text-align: right;}
+.scrollToTop {right:auto; left:20px;}
+.service-box .service-box-icon {left: auto;right: 0;}
+
+
+.fullwidth { width: 100vw;position: relative;right: 50%;
+margin-right: -50vw;margin-left: auto;left: 0;}
+
+/*safari Browser*/
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  /*::i-block-chrome, .chosebtn{margin-top: -4px;} */ 
+  ::i-block-chrome, .fullwidth {width: 102em;margin-left: auto;margin-right: -51em;left: 0;right: 50%;}
+  ::i-block-chrome, .contact-item img{line-height: normal;}
+}
+/*end footer*/
+@media(max-width: 767px){
+
+
+@media (min-width:900px) {
+
+}
+@media(min-width: 768px) and (max-width:992px){
+
+}
+
+@media(min-width:320px) and (max-width: 480px){
+
+}
+@media(min-width:481px) and (max-width: 767px){
+ 
+}
+@media(min-width:992px) and (max-width: 1199px){
+
+}
+
